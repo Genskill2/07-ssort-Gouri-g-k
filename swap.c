@@ -34,7 +34,7 @@ for (i = 0; i < aLength-1; i++)
     }
 }
 }
-int ssort(int arr[], int l){
+void ssort(int arr[], int l){
 for(int i=0;i<l;i++){
 swap_max(arr, l, i);}
 }
